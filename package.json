@@ -1,0 +1,18 @@
+{
+  "name": "guest-book",
+  "version": "1.0.0",
+  "description": "Sample guest book example.",
+  "main": "server.js",
+  "repository": "https://github.com/moeabdol/guest-book.git",
+  "author": "moeabdol <mohd.a.saed@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
+  }
+}
